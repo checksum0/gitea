@@ -46,7 +46,7 @@ RUN chmod 755 /tmp/local/usr/bin/entrypoint \
 
 FROM docker.io/library/alpine:3.23 AS gitea
 
-EXPOSE 22 3000
+EXPOSE 22 8080
 
 RUN apk --no-cache add \
     bash \
